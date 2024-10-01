@@ -1,0 +1,9 @@
+nome = str(input())
+valor1 = float(input())
+valor2 = float(input())
+valor1 = float((f"{valor1:.2f}"))
+valor2 = float((f"{valor2:.2f}"))
+desconto = valor2 * 0.15
+desconto = float(desconto)
+desconto2 = float(desconto) + float(valor1)
+print(f"TOTAL = R$ {desconto2:.2f}")
