@@ -1,0 +1,114 @@
+(boolean: )Representa o verdadeiro e o falso, os pilares da lógica computacional. Imagine um interruptor de luz: true para ligado, false para desligado.
+
+(byte:) Armazena pequenos valores inteiros, perfeitos para otimizar o uso da memória, como idades ou contagens.
+
+(char:) Guarda um único caractere, seja uma letra, um número ou um símbolo, as peças fundamentais para formar palavras e frases.
+
+(class:) Define a planta baixa de seus objetos, com atributos e métodos que lhes dão vida e funcionalidade. Imagine uma classe "Carro" com atributos como "cor" e "velocidade" e métodos como "dirigir" e "frear".
+
+(double:) Representa números reais com alta precisão, ideal para cálculos científicos e financeiros que exigem decimalidade.
+
+(enum:) Enumera um conjunto constante de valores relacionados, como os dias da semana ou as cores do arco-íris. Imagine um enum "DiaDaSemana" com valores como "SEGUNDA" e "TERÇA".
+
+(float:) Armazena números reais com precisão moderada, suficiente para diversas aplicações, como preços e temperaturas.
+
+(int:) Guarda números inteiros maiores que byte, perfeitos para quantidades, IDs e índices. Imagine um int para armazenar a população de um país.
+
+(interface:) Define um conjunto de métodos abstratos que as classes devem implementar, como um contrato a ser seguido. Imagine uma interface "FormaGeometrica" com métodos como "calcularArea" e "desenhar".
+
+{long:} Armazena números inteiros extremamente grandes, ideais para lidar com populações de países ou números astronômicos.
+
+{short:} Guarda números inteiros menores que int, otimizando a memória para valores que não exigem grande amplitude. Imagine um short para armazenar a temperatura em graus Celsius.
+
+Modificadores de Acesso:
+
+    (abstract:) Define uma classe ou método que precisa ser implementado por subclasses, como um rascunho que precisa ser finalizado. Imagine uma classe abstrata "Animal" com um método abstrato "fazerSom".
+    
+    (final: )Torna uma classe, método ou variável imutável, como uma constante que não pode ser alterada. Imagine uma variável final "PI" para representar o valor de pi.
+    
+    (implements:) Indica que uma classe implementa os métodos de uma interface, como um aluno cumprindo os requisitos de um curso. Imagine uma classe "Círculo" implementando a interface "FormaGeometrica".
+    
+    (import:) Traz funcionalidades de outras classes ou pacotes para o seu código, como convidar um amigo para te ajudar em um projeto. Imagine importar a classe "Scanner" para ler a entrada do usuário.
+    
+   ( instanceof:) Verifica se um objeto pertence a uma classe específica, como verificar se um animal é um cachorro.
+    
+    (native:) Indica que um método é implementado em uma linguagem nativa, como C ou Assembly, para otimizar o desempenho em tarefas específicas.
+    
+    (package:) Agrupa classes e interfaces em um conjunto organizado, como pastas em um armário. Imagine um pacote "br.com.minhaempresa" para armazenar suas classes.
+    
+    (private:) Torna um membro de classe acessível apenas dentro da própria classe, como um segredo que só você conhece.
+    
+    (protected:) Permite o acesso a um membro de classe dentro da classe e suas subclasses, como um segredo compartilhado com sua família.
+    
+   ( public:) Torna um membro de classe acessível a qualquer outra classe, como um anúncio ao mundo sobre sua nova função.
+    
+    (static:) Associa um membro de classe à classe em si, não a um objeto individual, como uma característica compartilhada por todos os alunos de uma turma. Imagine uma variável estática "contadorAlunos" para contar o número total de alunos.
+    
+    (super:) Acessa o membro de uma classe pai na herança, como pedir ajuda aos seus pais para resolver um problema.
+    
+    
+    (synchronized:) Garante o acesso seguro a um recurso compartilhado por várias threads, como evitar colisões em um cruzamento.
+    
+    (transient:) Indica que um membro de classe não precisa ser persistido, como uma variável temporária que não precisa ser salva.
+    
+   ( volatile:) Garante que as modificações
+
+Estruturas de Controle:
+
+    ( break:) Sai de um loop ou switch, como escapar de um labirinto quando encontra a saída.
+    
+    (case:) Especifica um bloco de código a ser executado dentro de um switch, como escolher um caminho diferente em uma bifurcação na estrada.
+    
+    (catch:) Captura exceções lançadas durante a execução do código, como um herói salvando o dia de um erro.
+    
+    (continue:) Pula para a próxima iteração de um loop, como pular para a próxima música da sua playlist.
+    
+    (default: )Define o bloco de código a ser executado quando nenhuma condição de case é correspondida, como um plano B quando tudo mais falha.
+    
+     ( do:) Executa um bloco de código pelo menos uma vez, antes de verificar a condição, como tentar abrir uma porta várias vezes até conseguir.
+    
+    (else:) Especifica um bloco de código alternativo a ser executado quando a condição de um if for falsa, como seguir um caminho diferente se a estrada estiver bloqueada.
+    
+    (finally:) Garante que um bloco de código seja sempre executado, mesmo após um try ou catch, como limpar a bagunça depois de brincar com tinta.
+    
+   ( for:) Repete um bloco de código um número específico de vezes ou enquanto uma condição for verdadeira, como contar de 1 a 10 ou até encontrar o brinquedo que você procura.
+    
+    (foreach:) Itera sobre os elementos de uma coleção, como percorrer cada livro em uma estante.
+    
+    (if: )Executa um bloco de código se uma condição for verdadeira, como verificar se está chovendo antes de sair de casa.
+    
+    (switch:) Avalia uma expressão e executa o código correspondente ao valor, como escolher um sabor de sorvete com base em seu humor.
+    
+   ( this:) Refere-se ao objeto atual dentro de um método, como se apresentar quando conhece alguém novo.
+    
+    (throw:) Lança uma exceção quando um erro ocorre, como pedir ajuda quando não consegue resolver um problema.
+    
+   ( try: )Tenta executar um bloco de código que pode lançar exceções, como pular de bungee jump mesmo com um pouco de medo.
+    
+   ( while): Repete um bloco de código enquanto uma condição for verdadeira, como continuar caminhando enquanto não encontrar o destino.
+
+Operadores:
+
+    (assert:) Verifica se uma condição é verdadeira e lança uma exceção se não for, como um detetive verificando se as pistas estão corretas.
+     
+     (const:) Define uma constante que não pode ser alterada, como a gravidade da Terra ou o valor de pi.
+    
+    (goto:) Pula para um rótulo específico em outro ponto do código, como um atalho em um mapa.
+    
+    (instanceof: )Verifica se um objeto pertence a uma classe específica, como verificar se um animal é um gato.
+    
+    (new:) Cria um novo objeto de uma classe específica, como construir uma nova casa.
+    
+    (return:) Sai de um método e retorna um valor, como devolver um livro emprestado à biblioteca.
+
+Literais:
+
+    (false:) Representa o valor lógico falso.
+    
+    (null:) Representa a ausência de um valor, como uma caixa vazia.
+    
+    (true:) Representa o valor lógico verdadeiro.
+
+Outras:
+
+    (void:) Indica que um método não retorna nenhum valor, como acenar para um amigo sem esperar nada em troca.
